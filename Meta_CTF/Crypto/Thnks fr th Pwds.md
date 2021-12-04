@@ -9,7 +9,7 @@ See if you’re able to recover the Administrator's password.
 ### Solution
 * Base64 decode
 ```bash
-┌──(kali㉿kali)-[~/ctf/meta_ctf/reversing]
+┌──(kali㉿kali)-[~/ctf/meta_ctf/crypto]
 └─$ echo "TWV0YUNURntlbmNvZGluZ19pc19OMFRfdGhlX3NhbWVfYXNfZW5jcnlwdGlvbiEhfQ==" |base64 -d
 MetaCTF{encoding_is_N0T_the_same_as_encryption!!}         
 ```
